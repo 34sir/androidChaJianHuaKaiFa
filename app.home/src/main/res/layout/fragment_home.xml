@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_go_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="跳转到Chat模块主业"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_go_chat_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="不带参数跳转到Chat模块Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_havest_go_chat_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="带参数跳转到Chat模块Activity"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_open_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="small支持本地网页组件"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_event_bus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="使用eventBus数据传输"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_updata_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="更新插件"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

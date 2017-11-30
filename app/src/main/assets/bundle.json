@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "lib.data",
+      "pkg": "tsou.cn.lib.data"
+    },
+    {
+      "uri": "lib.utils",
+      "pkg": "tsou.cn.lib.utils"
+    },
+    {
+      "uri": "lib.style",
+      "pkg": "tsou.cn.lib.style"
+    },
+    {
+      "uri": "lib.layout",
+      "pkg": "tsou.cn.lib.layout"
+    },
+    {
+      "uri": "lib.icon",
+      "pkg": "tsou.cn.lib.icon"
+    },
+    {
+      "uri": "home",
+      "pkg": "tsou.cn.app.home"
+    },
+    {
+      "uri": "chat",
+      "pkg": "tsou.cn.app.chat",
+      "rules": {
+        "FromHomeActivity": "tsou.cn.app.chat.activity.FromHomeActivity"
+      }
+    },
+    {
+      "uri": "recom",
+      "pkg": "tsou.cn.app.recom"
+    },
+    {
+      "uri": "me",
+      "pkg": "tsou.cn.app.me"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MySmallTest.iml" filepath="$PROJECT_DIR$/MySmallTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.chat/app.chat.iml" filepath="$PROJECT_DIR$/app.chat/app.chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.home/app.home.iml" filepath="$PROJECT_DIR$/app.home/app.home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.me/app.me.iml" filepath="$PROJECT_DIR$/app.me/app.me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.recom/app.recom.iml" filepath="$PROJECT_DIR$/app.recom/app.recom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib.data/lib.data.iml" filepath="$PROJECT_DIR$/lib.data/lib.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib.icon/lib.icon.iml" filepath="$PROJECT_DIR$/lib.icon/lib.icon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib.layout/lib.layout.iml" filepath="$PROJECT_DIR$/lib.layout/lib.layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib.style/lib.style.iml" filepath="$PROJECT_DIR$/lib.style/lib.style.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib.utils/lib.utils.iml" filepath="$PROJECT_DIR$/lib.utils/lib.utils.iml" />
+    </modules>
+  </component>
+</project>
