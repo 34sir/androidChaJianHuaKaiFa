@@ -205,7 +205,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         }
 
         public void checkUpgrade() {
-            mProgressDlg = ProgressDialog.show(mContext, "Small", "检查更新...");
+            mProgressDlg = ProgressDialog.show(mContext, "Small", "检查更新...", false, true);
             requestUpgradeInfo(Small.getBundleVersions(), new OnResponseListener() {
                 @Override
                 public void onResponse(UpgradeInfo info) {
