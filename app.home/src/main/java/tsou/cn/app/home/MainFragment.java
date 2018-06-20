@@ -302,6 +302,11 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
         private DownloadHandler mHandler;
 
+        /**
+         * 更新插件
+         * @param info
+         * @param listener
+         */
         private void upgradeBundles(final UpgradeInfo info,
                                     final OnUpgradeListener listener) {
             // Just for example, you can do this by OkHttp or something.
@@ -323,6 +328,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
                         for (UpdateInfo u : updates) {
                             // Get the patch file for downloading
                             net.wequick.small.Bundle bundle = Small.getBundle(u.packageName);
+                            // bundle.getPatchFile()获取到插件.so存储的路径 使用的内部存储
                             File file = bundle.getPatchFile();
 
                             // Download
